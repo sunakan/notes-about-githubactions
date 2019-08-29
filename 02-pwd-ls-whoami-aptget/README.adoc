@@ -1,8 +1,6 @@
 == 色々コマンド試す
 
-----
 include::../.github/workflows/2nd.yml[]
-----
 
 * pwd
 ** /home/runner/work/notes-about-githubactions/notes-about-githubactions
