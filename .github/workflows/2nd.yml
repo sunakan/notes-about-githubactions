@@ -1,0 +1,21 @@
+name: 2ndCI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: pwdしてみる
+      run: pwd
+    - name: ls -alしてみる
+      run: ls -al
+    - name: whoamiしてみる
+      run: whoami
+    - name: apt-get updateできるか?
+      run: apt-get update || echo "だめです"
+    - name: apt-get install hogehogeは可能か?
+      run: apt-get install -y tree || echo "可能です"
