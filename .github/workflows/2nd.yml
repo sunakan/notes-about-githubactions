@@ -16,6 +16,6 @@ jobs:
     - name: whoamiしてみる
       run: whoami
     - name: apt-get updateできるか?
-      run: apt-get update || echo "だめです"
+      run: sudo apt-get update || echo "だめです"
     - name: apt-get install hogehogeは可能か?
-      run: apt-get install -y tree || echo "可能です"
+      run: sudo apt-get install -y tree || echo "だめです"
