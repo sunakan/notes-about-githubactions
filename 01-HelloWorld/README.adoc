@@ -1,0 +1,9 @@
+== HelloWorld
+
+gitから消えていた...
+
+とりあえず中身
+
+----
+include::../.github/workflows/blank.yml[]
+----
