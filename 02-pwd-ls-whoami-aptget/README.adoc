@@ -1,0 +1,22 @@
+== 色々コマンド試す
+
+----
+include::../.github/workflows/2nd.yml[]
+----
+
+* pwd
+** /home/runner/work/notes-about-githubactions/notes-about-githubactions
+* ls -al
+** 普通にできた、groupはdocker
++
+----
+total 20
+drwxr-xr-x 4 runner docker 4096 Aug 29 11:09 .
+drwxr-xr-x 3 runner docker 4096 Aug 29 11:09 ..
+drwxr-xr-x 8 runner docker 4096 Aug 29 11:09 .git
+drwxr-xr-x 3 runner docker 4096 Aug 29 11:09 .github
+-rw-r--r-- 1 runner docker 1064 Aug 29 11:09 LICENSE
+----
+* whoami
+** runner
+* apt-get update, installは可能だった
